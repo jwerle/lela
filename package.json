@@ -1,0 +1,22 @@
+{
+  "name": "lela",
+  "version": "0.0.1",
+  "repo": "github.com/jwerle/lela",
+  "description": "help me lela",
+  "install": "make install",
+  "dependencies": {
+    "sqlite": "*",
+    "linenoise": "*",
+    "littlstar/asprintf.c": "*"
+  },
+  "src": [
+    "src/lela.h",
+    "src/lela.c",
+
+    "src/user.h",
+    "src/user.c",
+
+    "src/main.c"
+  ]
+}
+
